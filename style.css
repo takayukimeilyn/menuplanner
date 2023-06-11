@@ -1,0 +1,90 @@
+/* style.css */
+
+/* リセットCSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* 全体のスタイル */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* ヘッダー */
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+/* アプリの特徴セクション */
+#app-features {
+    margin-bottom: 20px;
+}
+
+#app-features h2 {
+    font-size: 24px;
+    border-bottom: 2px solid #333;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+}
+
+#app-features ul {
+    list-style: square;
+    padding-left: 20px;
+}
+
+#app-features li {
+    margin-bottom: 8px;
+    font-size: 16px;
+}
+
+/* ダウンロードセクション */
+#download {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+}
+
+#download h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+#download p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+#download a {
+    display: inline-block;
+    margin: 0 auto;
+}
+
+#download img {
+    width: 160px;
+    height: auto;
+}
+
+/* フッター */
+footer {
+    text-align: center;
+    margin-top: 20px;
+}
+
+footer p {
+    font-size: 14px;
+}
