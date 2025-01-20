@@ -75,6 +75,8 @@ header h1 {
 
 /* App Storeボタン */
 .app-item a img {
-    width: 150px;
+    width: auto;
     height: auto;
+    max-width: none;
 }
+
